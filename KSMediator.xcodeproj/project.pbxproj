@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A57C3BF081201B5BDBAEBE /* Pods_KSMediator_KSMediatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44251EB948D95B188DAD563F /* Pods_KSMediator_KSMediatorUITests.framework */; };
+		0C61DA0F71DDDD908524F62A /* Pods_KSMediatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673DAD52C19656E9E10921BC /* Pods_KSMediatorTests.framework */; };
 		7E020ED422449EC4009B1BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E020ED322449EC4009B1BE6 /* AppDelegate.m */; };
 		7E020ED722449EC4009B1BE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E020ED622449EC4009B1BE6 /* ViewController.m */; };
 		7E020EDA22449EC4009B1BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E020ED822449EC4009B1BE6 /* Main.storyboard */; };
@@ -20,6 +22,7 @@
 		7E020F0E2244C0FA009B1BE6 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E020F0D2244C0FA009B1BE6 /* Target_A.m */; };
 		7E020F122244CD30009B1BE6 /* DemoModuleADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E020F102244CD30009B1BE6 /* DemoModuleADetailViewController.m */; };
 		7E020F132244CD30009B1BE6 /* DemoModuleADetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E020F112244CD30009B1BE6 /* DemoModuleADetailViewController.xib */; };
+		D37EB38F68050967C9196A77 /* Pods_KSMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B35BC9E7284504E58594452 /* Pods_KSMediator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B35BC9E7284504E58594452 /* Pods_KSMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44251EB948D95B188DAD563F /* Pods_KSMediator_KSMediatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSMediator_KSMediatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C53275189ADF9C52F770CA1 /* Pods-KSMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSMediator.release.xcconfig"; path = "Target Support Files/Pods-KSMediator/Pods-KSMediator.release.xcconfig"; sourceTree = "<group>"; };
+		673DAD52C19656E9E10921BC /* Pods_KSMediatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSMediatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4563C8A22E0E9CB78652D0 /* Pods-KSMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSMediator.debug.xcconfig"; path = "Target Support Files/Pods-KSMediator/Pods-KSMediator.debug.xcconfig"; sourceTree = "<group>"; };
 		7E020ECF22449EC4009B1BE6 /* KSMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E020ED222449EC4009B1BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E020ED322449EC4009B1BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +73,10 @@
 		7E020F0F2244CD30009B1BE6 /* DemoModuleADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoModuleADetailViewController.h; sourceTree = "<group>"; };
 		7E020F102244CD30009B1BE6 /* DemoModuleADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoModuleADetailViewController.m; sourceTree = "<group>"; };
 		7E020F112244CD30009B1BE6 /* DemoModuleADetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoModuleADetailViewController.xib; sourceTree = "<group>"; };
+		90498F04E6B701A416DD9C86 /* Pods-KSMediator-KSMediatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSMediator-KSMediatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-KSMediator-KSMediatorUITests/Pods-KSMediator-KSMediatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5EC3E190D553AA6FA7DDC20 /* Pods-KSMediatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSMediatorTests.debug.xcconfig"; path = "Target Support Files/Pods-KSMediatorTests/Pods-KSMediatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED11169190208B39130FE58E /* Pods-KSMediator-KSMediatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSMediator-KSMediatorUITests.release.xcconfig"; path = "Target Support Files/Pods-KSMediator-KSMediatorUITests/Pods-KSMediator-KSMediatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F000951F9504ADB64EF42949 /* Pods-KSMediatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSMediatorTests.release.xcconfig"; path = "Target Support Files/Pods-KSMediatorTests/Pods-KSMediatorTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37EB38F68050967C9196A77 /* Pods_KSMediator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C61DA0F71DDDD908524F62A /* Pods_KSMediatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A57C3BF081201B5BDBAEBE /* Pods_KSMediator_KSMediatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +114,8 @@
 				7E020EEA22449EC6009B1BE6 /* KSMediatorTests */,
 				7E020EF522449EC6009B1BE6 /* KSMediatorUITests */,
 				7E020ED022449EC4009B1BE6 /* Products */,
+				AC1F1495C796F7C86C9048B3 /* Pods */,
+				C7FE0F5E923A73523E982A4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +188,30 @@
 			path = Action;
 			sourceTree = "<group>";
 		};
+		AC1F1495C796F7C86C9048B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C4563C8A22E0E9CB78652D0 /* Pods-KSMediator.debug.xcconfig */,
+				4C53275189ADF9C52F770CA1 /* Pods-KSMediator.release.xcconfig */,
+				90498F04E6B701A416DD9C86 /* Pods-KSMediator-KSMediatorUITests.debug.xcconfig */,
+				ED11169190208B39130FE58E /* Pods-KSMediator-KSMediatorUITests.release.xcconfig */,
+				D5EC3E190D553AA6FA7DDC20 /* Pods-KSMediatorTests.debug.xcconfig */,
+				F000951F9504ADB64EF42949 /* Pods-KSMediatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7FE0F5E923A73523E982A4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B35BC9E7284504E58594452 /* Pods_KSMediator.framework */,
+				44251EB948D95B188DAD563F /* Pods_KSMediator_KSMediatorUITests.framework */,
+				673DAD52C19656E9E10921BC /* Pods_KSMediatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E020EFB22449EC6009B1BE6 /* Build configuration list for PBXNativeTarget "KSMediator" */;
 			buildPhases = (
+				CD48574E4AC6C4B42A401502 /* [CP] Check Pods Manifest.lock */,
 				7E020ECB22449EC4009B1BE6 /* Sources */,
 				7E020ECC22449EC4009B1BE6 /* Frameworks */,
 				7E020ECD22449EC4009B1BE6 /* Resources */,
+				43E69FEE8BC3FC86C3824BBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E020EFE22449EC6009B1BE6 /* Build configuration list for PBXNativeTarget "KSMediatorTests" */;
 			buildPhases = (
+				86BE18442D8EECEF4C18CB96 /* [CP] Check Pods Manifest.lock */,
 				7E020EE322449EC6009B1BE6 /* Sources */,
 				7E020EE422449EC6009B1BE6 /* Frameworks */,
 				7E020EE522449EC6009B1BE6 /* Resources */,
@@ -213,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E020F0122449EC6009B1BE6 /* Build configuration list for PBXNativeTarget "KSMediatorUITests" */;
 			buildPhases = (
+				77D6AF08F8E9F5E305457CA9 /* [CP] Check Pods Manifest.lock */,
 				7E020EEE22449EC6009B1BE6 /* Sources */,
 				7E020EEF22449EC6009B1BE6 /* Frameworks */,
 				7E020EF022449EC6009B1BE6 /* Resources */,
+				EE45B459CFC72A7EB969311A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +342,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43E69FEE8BC3FC86C3824BBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSMediator/Pods-KSMediator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSMediator/Pods-KSMediator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KSMediator/Pods-KSMediator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D6AF08F8E9F5E305457CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSMediator-KSMediatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BE18442D8EECEF4C18CB96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSMediatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD48574E4AC6C4B42A401502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSMediator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE45B459CFC72A7EB969311A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSMediator-KSMediatorUITests/Pods-KSMediator-KSMediatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSMediator-KSMediatorUITests/Pods-KSMediator-KSMediatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KSMediator-KSMediatorUITests/Pods-KSMediator-KSMediatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E020ECB22449EC4009B1BE6 /* Sources */ = {
@@ -477,6 +626,7 @@
 		};
 		7E020EFC22449EC6009B1BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4563C8A22E0E9CB78652D0 /* Pods-KSMediator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +644,7 @@
 		};
 		7E020EFD22449EC6009B1BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C53275189ADF9C52F770CA1 /* Pods-KSMediator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +662,7 @@
 		};
 		7E020EFF22449EC6009B1BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5EC3E190D553AA6FA7DDC20 /* Pods-KSMediatorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +682,7 @@
 		};
 		7E020F0022449EC6009B1BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F000951F9504ADB64EF42949 /* Pods-KSMediatorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +702,7 @@
 		};
 		7E020F0222449EC6009B1BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90498F04E6B701A416DD9C86 /* Pods-KSMediator-KSMediatorUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPG6HAPUD5;
@@ -567,6 +721,7 @@
 		};
 		7E020F0322449EC6009B1BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED11169190208B39130FE58E /* Pods-KSMediator-KSMediatorUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPG6HAPUD5;

@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Target_A : NSObject
 - (UIViewController *)Action_nativeFetchDetailViewController:(NSDictionary *)params;
+- (void)Action_showAlert:(NSDictionary *)params;
 @end
 
 NS_ASSUME_NONNULL_END

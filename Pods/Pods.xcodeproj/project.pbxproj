@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073CDE42DA1B47A85A4BFE9247E69205 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		13B1D4BC45B972413E7469007429DD24 /* HandyFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EF985AC608141A708360AA78A70B86 /* HandyFrame-dummy.m */; };
+		19EFA2E2E4FF6736E16A16B5457F8D89 /* Pods-KSMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E76AB35A0EB4AE63D4E1D52F282B61 /* Pods-KSMediator-dummy.m */; };
+		1DCBCAB1589635A606C199FCA070B1A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		2FE1788BBB19A7BD65618419EC7C4FE0 /* Pods-KSMediator-KSMediatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39842C655A7EFE339528AE6C8DDAAC84 /* Pods-KSMediator-KSMediatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE6EEB6F7B8AD5C5C81E5053A728821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		624D93459D56FC229396C2D1E55CCC64 /* UIView+LayoutMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = E1443A5E6456DF74D51E4342FDF8D261 /* UIView+LayoutMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AADDEAF4FCC85E33DAE42CB2A276527 /* HandyFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 830D450F374D046D4AC2B3DE4856E0A3 /* HandyFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89FAFB049D9E1B56B78AEACB7DFB4A1F /* Pods-KSMediator-KSMediatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 417E32357225E7250D2F535082737F1D /* Pods-KSMediator-KSMediatorUITests-dummy.m */; };
+		989E001DF11E8C3DEA49572D9D986066 /* Pods-KSMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF30B3F96F033C63F18D86B1288C9BD /* Pods-KSMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF029EC0B5D8059EBAA606470F1AFC7D /* Pods-KSMediatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C8CE051CF09DCB5C610F66B8509565 /* Pods-KSMediatorTests-dummy.m */; };
+		C3D854042BE2E729C063124FD1D9C44B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		C6491180429EED10AFA26768094D73DC /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 875862F113BBD58D6B8DF95127A10029 /* UIView+LayoutMethods.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E76302BF5BBC7EBF6D0BF7659620F47E /* Pods-KSMediatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FE6013F3822034C87E57568BFCB830 /* Pods-KSMediatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A9EBE62DB419E2F42D31ACF867831F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C1CC0B19E64AEC76479EB197F65D559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFD464246FDE69671AB76F54C7650FC;
+			remoteInfo = HandyFrame;
+		};
+		A76CFD1D5BD2DDF505CF916D9C9188AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9BB0CDECD1AF890566C273335969C8;
+			remoteInfo = "Pods-KSMediator";
+		};
+		F0DA46102D44853F2077F5F900D3F206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFD464246FDE69671AB76F54C7650FC;
+			remoteInfo = HandyFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0543262A242F9207735F7C51CCBCA48D /* Pods-KSMediatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSMediatorTests.modulemap"; sourceTree = "<group>"; };
+		0DA440D9FB875857FBCF024310B1E9A3 /* Pods-KSMediator-KSMediatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMediator-KSMediatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10402282E0030D53FFB6A8AA9FBD3727 /* Pods-KSMediator-KSMediatorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSMediator-KSMediatorUITests-Info.plist"; sourceTree = "<group>"; };
+		14E76AB35A0EB4AE63D4E1D52F282B61 /* Pods-KSMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSMediator-dummy.m"; sourceTree = "<group>"; };
+		193AF3536FB1B5018E92D27C04E7E80C /* Pods-KSMediatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMediatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24C8CE051CF09DCB5C610F66B8509565 /* Pods-KSMediatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSMediatorTests-dummy.m"; sourceTree = "<group>"; };
+		256B4363B1894C14643E1BA2EF35233E /* Pods_KSMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSMediator.framework; path = "Pods-KSMediator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		39842C655A7EFE339528AE6C8DDAAC84 /* Pods-KSMediator-KSMediatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSMediator-KSMediatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		417E32357225E7250D2F535082737F1D /* Pods-KSMediator-KSMediatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSMediator-KSMediatorUITests-dummy.m"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46C170D2009D7763ACB5EE26C2E13197 /* Pods-KSMediator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSMediator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4812A19F3987F79D2D655429A05430E3 /* Pods-KSMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMediator.release.xcconfig"; sourceTree = "<group>"; };
+		5F82752DCDD7F29F111F9639ACE96DFF /* Pods_KSMediatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSMediatorTests.framework; path = "Pods-KSMediatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639C83C023C5D7ACABF5847C16F1E70D /* HandyFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HandyFrame.framework; path = HandyFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EEAC96BFDF3B5F9C888F21171B979A /* Pods-KSMediator-KSMediatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSMediator-KSMediatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E289C9EAC03B0ACAA026AAB1624E96B /* Pods-KSMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSMediator-Info.plist"; sourceTree = "<group>"; };
+		793A9091AA18B9589DD7B8C72DAA9F60 /* Pods-KSMediator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSMediator-frameworks.sh"; sourceTree = "<group>"; };
+		79BDE56B8C0C9A89D727003C1AA1A99A /* Pods-KSMediator-KSMediatorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSMediator-KSMediatorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7F8DDC65BD5E23F08724BA6F7CC7B0B2 /* Pods-KSMediator-KSMediatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSMediator-KSMediatorUITests.modulemap"; sourceTree = "<group>"; };
+		830D450F374D046D4AC2B3DE4856E0A3 /* HandyFrame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyFrame-umbrella.h"; sourceTree = "<group>"; };
+		875862F113BBD58D6B8DF95127A10029 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		87EF985AC608141A708360AA78A70B86 /* HandyFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HandyFrame-dummy.m"; sourceTree = "<group>"; };
+		8B5AEB7F7E43DEF47BB03711D7F8E5B5 /* Pods-KSMediator-KSMediatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMediator-KSMediatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		901634BE08708002EEACEAD9F33F5BE4 /* Pods-KSMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMediator.debug.xcconfig"; sourceTree = "<group>"; };
+		9082E93D81D621885692ED282D76B904 /* HandyFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyFrame-prefix.pch"; sourceTree = "<group>"; };
+		90C5D977E37985F70AC193618A357671 /* HandyFrame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HandyFrame-Info.plist"; sourceTree = "<group>"; };
+		92FE6013F3822034C87E57568BFCB830 /* Pods-KSMediatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSMediatorTests-umbrella.h"; sourceTree = "<group>"; };
+		9BA89A8C1FB6D99683FA544969B5F951 /* Pods-KSMediatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSMediatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A012244E4E9AAC5FACA96CF850FD6B8B /* HandyFrame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HandyFrame.modulemap; sourceTree = "<group>"; };
+		A9A1521CE45DE2FD5B5ACCDDCCBBB8FA /* Pods-KSMediatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSMediatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4F6773F3BE9B53EB596F2AE73FF1B1A /* Pods-KSMediatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSMediatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C038E6D44D247A2EF3CF79B3F748792C /* Pods-KSMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSMediator.modulemap"; sourceTree = "<group>"; };
+		C970890B622A2B331222D92D32D83ADD /* HandyFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HandyFrame.xcconfig; sourceTree = "<group>"; };
+		CA31E8CDF4C84FF819118C136286EB33 /* Pods-KSMediator-KSMediatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSMediator-KSMediatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC42238988624B2FF6FD775F92BB102 /* Pods-KSMediatorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSMediatorTests-Info.plist"; sourceTree = "<group>"; };
+		DABCB98ABDB450478EB02CFA61DEF6B4 /* Pods_KSMediator_KSMediatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KSMediator_KSMediatorUITests.framework; path = "Pods-KSMediator-KSMediatorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1443A5E6456DF74D51E4342FDF8D261 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		ED2491E4CE90F9BB7E03789E18425516 /* Pods-KSMediator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSMediator-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEF30B3F96F033C63F18D86B1288C9BD /* Pods-KSMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSMediator-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A3BE577CE85AAE2A71CC7F13DE18271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCBCAB1589635A606C199FCA070B1A0 /* Foundation.framework in Frameworks */,
+				073CDE42DA1B47A85A4BFE9247E69205 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119ADF9D2CD99C29A1457D2F44ACD861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D854042BE2E729C063124FD1D9C44B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97525849713A2FCB3B702CC1A15CDC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A9EBE62DB419E2F42D31ACF867831F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02B2118CB80BDEDC9985363C97109CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6EEB6F7B8AD5C5C81E5053A728821 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1617657B0456CE7ACAF543C433EA1FD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45775176FF29C7BE56DFD04C6D01F6AA /* Pods-KSMediator */,
+				94D9DA5C86AEA3AA5CD52A4C7447CCAD /* Pods-KSMediator-KSMediatorUITests */,
+				428BC8C3DA9625E923693B63A08337A5 /* Pods-KSMediatorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		428BC8C3DA9625E923693B63A08337A5 /* Pods-KSMediatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0543262A242F9207735F7C51CCBCA48D /* Pods-KSMediatorTests.modulemap */,
+				9BA89A8C1FB6D99683FA544969B5F951 /* Pods-KSMediatorTests-acknowledgements.markdown */,
+				B4F6773F3BE9B53EB596F2AE73FF1B1A /* Pods-KSMediatorTests-acknowledgements.plist */,
+				24C8CE051CF09DCB5C610F66B8509565 /* Pods-KSMediatorTests-dummy.m */,
+				CEC42238988624B2FF6FD775F92BB102 /* Pods-KSMediatorTests-Info.plist */,
+				92FE6013F3822034C87E57568BFCB830 /* Pods-KSMediatorTests-umbrella.h */,
+				193AF3536FB1B5018E92D27C04E7E80C /* Pods-KSMediatorTests.debug.xcconfig */,
+				A9A1521CE45DE2FD5B5ACCDDCCBBB8FA /* Pods-KSMediatorTests.release.xcconfig */,
+			);
+			name = "Pods-KSMediatorTests";
+			path = "Target Support Files/Pods-KSMediatorTests";
+			sourceTree = "<group>";
+		};
+		45775176FF29C7BE56DFD04C6D01F6AA /* Pods-KSMediator */ = {
+			isa = PBXGroup;
+			children = (
+				C038E6D44D247A2EF3CF79B3F748792C /* Pods-KSMediator.modulemap */,
+				46C170D2009D7763ACB5EE26C2E13197 /* Pods-KSMediator-acknowledgements.markdown */,
+				ED2491E4CE90F9BB7E03789E18425516 /* Pods-KSMediator-acknowledgements.plist */,
+				14E76AB35A0EB4AE63D4E1D52F282B61 /* Pods-KSMediator-dummy.m */,
+				793A9091AA18B9589DD7B8C72DAA9F60 /* Pods-KSMediator-frameworks.sh */,
+				6E289C9EAC03B0ACAA026AAB1624E96B /* Pods-KSMediator-Info.plist */,
+				FEF30B3F96F033C63F18D86B1288C9BD /* Pods-KSMediator-umbrella.h */,
+				901634BE08708002EEACEAD9F33F5BE4 /* Pods-KSMediator.debug.xcconfig */,
+				4812A19F3987F79D2D655429A05430E3 /* Pods-KSMediator.release.xcconfig */,
+			);
+			name = "Pods-KSMediator";
+			path = "Target Support Files/Pods-KSMediator";
+			sourceTree = "<group>";
+		};
+		60D2505FBF3C53DD72B247562A68BACA /* HandyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				E1443A5E6456DF74D51E4342FDF8D261 /* UIView+LayoutMethods.h */,
+				875862F113BBD58D6B8DF95127A10029 /* UIView+LayoutMethods.m */,
+				DAFFF15E3E642565191D05371752EFF9 /* Support Files */,
+			);
+			name = HandyFrame;
+			path = HandyFrame;
+			sourceTree = "<group>";
+		};
+		851E76EDB01364CA5E12E09C15DABF8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639C83C023C5D7ACABF5847C16F1E70D /* HandyFrame.framework */,
+				256B4363B1894C14643E1BA2EF35233E /* Pods_KSMediator.framework */,
+				DABCB98ABDB450478EB02CFA61DEF6B4 /* Pods_KSMediator_KSMediatorUITests.framework */,
+				5F82752DCDD7F29F111F9639ACE96DFF /* Pods_KSMediatorTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D9DA5C86AEA3AA5CD52A4C7447CCAD /* Pods-KSMediator-KSMediatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F8DDC65BD5E23F08724BA6F7CC7B0B2 /* Pods-KSMediator-KSMediatorUITests.modulemap */,
+				69EEAC96BFDF3B5F9C888F21171B979A /* Pods-KSMediator-KSMediatorUITests-acknowledgements.markdown */,
+				CA31E8CDF4C84FF819118C136286EB33 /* Pods-KSMediator-KSMediatorUITests-acknowledgements.plist */,
+				417E32357225E7250D2F535082737F1D /* Pods-KSMediator-KSMediatorUITests-dummy.m */,
+				79BDE56B8C0C9A89D727003C1AA1A99A /* Pods-KSMediator-KSMediatorUITests-frameworks.sh */,
+				10402282E0030D53FFB6A8AA9FBD3727 /* Pods-KSMediator-KSMediatorUITests-Info.plist */,
+				39842C655A7EFE339528AE6C8DDAAC84 /* Pods-KSMediator-KSMediatorUITests-umbrella.h */,
+				8B5AEB7F7E43DEF47BB03711D7F8E5B5 /* Pods-KSMediator-KSMediatorUITests.debug.xcconfig */,
+				0DA440D9FB875857FBCF024310B1E9A3 /* Pods-KSMediator-KSMediatorUITests.release.xcconfig */,
+			);
+			name = "Pods-KSMediator-KSMediatorUITests";
+			path = "Target Support Files/Pods-KSMediator-KSMediatorUITests";
+			sourceTree = "<group>";
+		};
+		B0309744D7D95C8AF03F4FBF47892FD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60D2505FBF3C53DD72B247562A68BACA /* HandyFrame */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B0309744D7D95C8AF03F4FBF47892FD8 /* Pods */,
+				851E76EDB01364CA5E12E09C15DABF8D /* Products */,
+				1617657B0456CE7ACAF543C433EA1FD7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DAFFF15E3E642565191D05371752EFF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A012244E4E9AAC5FACA96CF850FD6B8B /* HandyFrame.modulemap */,
+				C970890B622A2B331222D92D32D83ADD /* HandyFrame.xcconfig */,
+				87EF985AC608141A708360AA78A70B86 /* HandyFrame-dummy.m */,
+				90C5D977E37985F70AC193618A357671 /* HandyFrame-Info.plist */,
+				9082E93D81D621885692ED282D76B904 /* HandyFrame-prefix.pch */,
+				830D450F374D046D4AC2B3DE4856E0A3 /* HandyFrame-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HandyFrame";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A2795BCD0B68B14F784670FCB07BE24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE1788BBB19A7BD65618419EC7C4FE0 /* Pods-KSMediator-KSMediatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67112E6BC412249C1CD7C0F7D19DD21C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AADDEAF4FCC85E33DAE42CB2A276527 /* HandyFrame-umbrella.h in Headers */,
+				624D93459D56FC229396C2D1E55CCC64 /* UIView+LayoutMethods.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1D34393F89EC56FEC2BD41BCD984E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989E001DF11E8C3DEA49572D9D986066 /* Pods-KSMediator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC24D1DFE0795BFD4266A147BEA558D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76302BF5BBC7EBF6D0BF7659620F47E /* Pods-KSMediatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		130ED88ACE7D396E0E66517BB5A2CE4E /* Pods-KSMediator-KSMediatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B5E5D265FBBA76306FEA9B029D3AF4 /* Build configuration list for PBXNativeTarget "Pods-KSMediator-KSMediatorUITests" */;
+			buildPhases = (
+				5A2795BCD0B68B14F784670FCB07BE24 /* Headers */,
+				03022BA54EBC9431DC8EB1A602AA907C /* Sources */,
+				C02B2118CB80BDEDC9985363C97109CB /* Frameworks */,
+				403AF3D69C67BEF787E69B29058F4FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC058823D4CB47C23BE4125EEF1CF25 /* PBXTargetDependency */,
+			);
+			name = "Pods-KSMediator-KSMediatorUITests";
+			productName = "Pods-KSMediator-KSMediatorUITests";
+			productReference = DABCB98ABDB450478EB02CFA61DEF6B4 /* Pods_KSMediator_KSMediatorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A37974D394C2E4D470F4F4FB14D4BD31 /* Pods-KSMediatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F30F978E7140EF1A618310BD105CC2B /* Build configuration list for PBXNativeTarget "Pods-KSMediatorTests" */;
+			buildPhases = (
+				DAC24D1DFE0795BFD4266A147BEA558D /* Headers */,
+				2CD5408C5CAE2CD02418C0D3A95723E4 /* Sources */,
+				97525849713A2FCB3B702CC1A15CDC5C /* Frameworks */,
+				5519EC34C1FF7B0E3B752A43E1736A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A1DFBE4343DB79EC9C2E533F7331C7A /* PBXTargetDependency */,
+			);
+			name = "Pods-KSMediatorTests";
+			productName = "Pods-KSMediatorTests";
+			productReference = 5F82752DCDD7F29F111F9639ACE96DFF /* Pods_KSMediatorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDFD464246FDE69671AB76F54C7650FC /* HandyFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD6BEDCA7A513B17586B5DE454C05BE /* Build configuration list for PBXNativeTarget "HandyFrame" */;
+			buildPhases = (
+				67112E6BC412249C1CD7C0F7D19DD21C /* Headers */,
+				F167E82F0116C2B6896319F187C6B8D2 /* Sources */,
+				0A3BE577CE85AAE2A71CC7F13DE18271 /* Frameworks */,
+				7155F5A8606F47BCE960529005CC7446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandyFrame;
+			productName = HandyFrame;
+			productReference = 639C83C023C5D7ACABF5847C16F1E70D /* HandyFrame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED9BB0CDECD1AF890566C273335969C8 /* Pods-KSMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1D185C115409FC895A5EFC45FA40451 /* Build configuration list for PBXNativeTarget "Pods-KSMediator" */;
+			buildPhases = (
+				6A1D34393F89EC56FEC2BD41BCD984E9 /* Headers */,
+				97460538EAF172F5B6E2ACADB187CEF8 /* Sources */,
+				119ADF9D2CD99C29A1457D2F44ACD861 /* Frameworks */,
+				911A9A2E8C8DE56FDB36386172E05751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AE57138466F80CFF97CB7F6682DE78D /* PBXTargetDependency */,
+			);
+			name = "Pods-KSMediator";
+			productName = "Pods-KSMediator";
+			productReference = 256B4363B1894C14643E1BA2EF35233E /* Pods_KSMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 851E76EDB01364CA5E12E09C15DABF8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFD464246FDE69671AB76F54C7650FC /* HandyFrame */,
+				ED9BB0CDECD1AF890566C273335969C8 /* Pods-KSMediator */,
+				130ED88ACE7D396E0E66517BB5A2CE4E /* Pods-KSMediator-KSMediatorUITests */,
+				A37974D394C2E4D470F4F4FB14D4BD31 /* Pods-KSMediatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403AF3D69C67BEF787E69B29058F4FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5519EC34C1FF7B0E3B752A43E1736A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7155F5A8606F47BCE960529005CC7446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911A9A2E8C8DE56FDB36386172E05751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03022BA54EBC9431DC8EB1A602AA907C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FAFB049D9E1B56B78AEACB7DFB4A1F /* Pods-KSMediator-KSMediatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD5408C5CAE2CD02418C0D3A95723E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF029EC0B5D8059EBAA606470F1AFC7D /* Pods-KSMediatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97460538EAF172F5B6E2ACADB187CEF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EFA2E2E4FF6736E16A16B5457F8D89 /* Pods-KSMediator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F167E82F0116C2B6896319F187C6B8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B1D4BC45B972413E7469007429DD24 /* HandyFrame-dummy.m in Sources */,
+				C6491180429EED10AFA26768094D73DC /* UIView+LayoutMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AE57138466F80CFF97CB7F6682DE78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HandyFrame;
+			target = BDFD464246FDE69671AB76F54C7650FC /* HandyFrame */;
+			targetProxy = 0C1CC0B19E64AEC76479EB197F65D559 /* PBXContainerItemProxy */;
+		};
+		4A1DFBE4343DB79EC9C2E533F7331C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KSMediator";
+			target = ED9BB0CDECD1AF890566C273335969C8 /* Pods-KSMediator */;
+			targetProxy = A76CFD1D5BD2DDF505CF916D9C9188AA /* PBXContainerItemProxy */;
+		};
+		7EC058823D4CB47C23BE4125EEF1CF25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HandyFrame;
+			target = BDFD464246FDE69671AB76F54C7650FC /* HandyFrame */;
+			targetProxy = F0DA46102D44853F2077F5F900D3F206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B0ADC00406262E08FE756A4C4AEA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5AEB7F7E43DEF47BB03711D7F8E5B5 /* Pods-KSMediator-KSMediatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSMediator-KSMediatorUITests/Pods-KSMediator-KSMediatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSMediator-KSMediatorUITests/Pods-KSMediator-KSMediatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5705D88959003B11385E0B2A8201F9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193AF3536FB1B5018E92D27C04E7E80C /* Pods-KSMediatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSMediatorTests/Pods-KSMediatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSMediatorTests/Pods-KSMediatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69858FA514E066551308FEE0BF60B644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA440D9FB875857FBCF024310B1E9A3 /* Pods-KSMediator-KSMediatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSMediator-KSMediatorUITests/Pods-KSMediator-KSMediatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSMediator-KSMediatorUITests/Pods-KSMediator-KSMediatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7625D093AAB0B5BCFA10400596076A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A1521CE45DE2FD5B5ACCDDCCBBB8FA /* Pods-KSMediatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSMediatorTests/Pods-KSMediatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSMediatorTests/Pods-KSMediatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D1563F036523AA31F889FB28EF757C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C970890B622A2B331222D92D32D83ADD /* HandyFrame.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HandyFrame/HandyFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HandyFrame/HandyFrame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HandyFrame/HandyFrame.modulemap";
+				PRODUCT_MODULE_NAME = HandyFrame;
+				PRODUCT_NAME = HandyFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A26F198955FEEF9A1D3386C2C469E524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4812A19F3987F79D2D655429A05430E3 /* Pods-KSMediator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSMediator/Pods-KSMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSMediator/Pods-KSMediator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB5A697AB001E3A4871F982760669BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C970890B622A2B331222D92D32D83ADD /* HandyFrame.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HandyFrame/HandyFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HandyFrame/HandyFrame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HandyFrame/HandyFrame.modulemap";
+				PRODUCT_MODULE_NAME = HandyFrame;
+				PRODUCT_NAME = HandyFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D58DF61C803868192761FC0EE9AE9D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901634BE08708002EEACEAD9F33F5BE4 /* Pods-KSMediator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSMediator/Pods-KSMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSMediator/Pods-KSMediator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F30F978E7140EF1A618310BD105CC2B /* Build configuration list for PBXNativeTarget "Pods-KSMediatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5705D88959003B11385E0B2A8201F9A2 /* Debug */,
+				7625D093AAB0B5BCFA10400596076A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B5E5D265FBBA76306FEA9B029D3AF4 /* Build configuration list for PBXNativeTarget "Pods-KSMediator-KSMediatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B0ADC00406262E08FE756A4C4AEA79 /* Debug */,
+				69858FA514E066551308FEE0BF60B644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD6BEDCA7A513B17586B5DE454C05BE /* Build configuration list for PBXNativeTarget "HandyFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5A697AB001E3A4871F982760669BD5 /* Debug */,
+				7D1563F036523AA31F889FB28EF757C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D185C115409FC895A5EFC45FA40451 /* Build configuration list for PBXNativeTarget "Pods-KSMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58DF61C803868192761FC0EE9AE9D97 /* Debug */,
+				A26F198955FEEF9A1D3386C2C469E524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

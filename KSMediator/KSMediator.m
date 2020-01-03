@@ -25,6 +25,11 @@ NSString * const kKSMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
     return mediator;
 }
 
+/// 封装 safePerformAction 进行容错处理，也就是对调用方法无响应的处理
+/// @param targetName 调用接口的对象
+/// @param actionName 调用的方法名
+/// @param params 参数
+/// @param shouldCacheTarget  是否缓存 target
 - (id)performTarget:(NSString *)targetName action:(NSString *)actionName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget {
     NSString *swiftModuleName = params[kKSMediatorParamsKeySwiftTargetModuleName];
     // generate target(生成目标_谁来响应)
@@ -34,8 +39,10 @@ NSString * const kKSMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
     } else {
         targetClassString = [NSString stringWithFormat:@"Target_%@",targetName];
     }
+    // 从缓存中去 target 对象
     NSObject *target = self.cachedTarget[targetClassString];
     if (target == nil) {
+        // 生成 target 对象
         Class targetClass = NSClassFromString(targetClassString);
         target = [[targetClass alloc] init];
         
@@ -51,15 +58,12 @@ NSString * const kKSMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
         [self NoTargetActionResponseWithTargetString:targetClassString selectorString:actionString originParams:params];
         return nil;
     }
-    
+    // 缓存 target 对象
     if (shouldCacheTarget) {
         self.cachedTarget[targetClassString] =  target;
     }
     
-    if ([target respondsToSelector:action]) {
-        return [self safePerformAction:action target:target params:params];
-    }
-    
+    // 获取响应方法
     if ([target respondsToSelector:action]) {
         return [self safePerformAction:action target:target params:params];
     } else {

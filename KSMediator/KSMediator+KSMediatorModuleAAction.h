@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface KSMediator (KSMediatorModuleAAction)
 - (UIViewController *)KSMediator_viewControllerForDetail;
+- (void)KSMediator_showAlertWithMessage:(NSString *)message canleAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction;
 @end
 
 NS_ASSUME_NONNULL_END

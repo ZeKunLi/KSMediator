@@ -28,6 +28,7 @@
 - (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
     [self.valueLabel sizeToFit];
+    
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     

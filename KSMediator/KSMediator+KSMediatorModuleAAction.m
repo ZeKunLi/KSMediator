@@ -7,13 +7,15 @@
 //
 
 #import "KSMediator+KSMediatorModuleAAction.h"
+
 NSString * const kKSMediatorTargetA = @"A";
 NSString * const kKSMediatorActionNativFetchDetailViewController = @"nativeFetchDetailViewController";
+NSString * const kKSMediatorActionShowAlert = @"showAlert";
 @implementation KSMediator (KSMediatorModuleAAction)
 - (UIViewController *)KSMediator_viewControllerForDetail {
     UIViewController *viewController = [self performTarget:kKSMediatorTargetA
                                                     action:kKSMediatorActionNativFetchDetailViewController
-                                                    params:@{@"key":@"value"}
+                                                    params:@{@"key":@"lizekun"}
                                          shouldCacheTarget:NO
                                         ];
     if ([viewController isKindOfClass:[UIViewController class]]) {
@@ -24,4 +26,28 @@ NSString * const kKSMediatorActionNativFetchDetailViewController = @"nativeFetch
         return [[UIViewController alloc] init];
     }
 }
+
+
+
+- (void)KSMediator_showAlertWithMessage:(NSString *)message canleAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction {
+    NSMutableDictionary *paramsToSend = [[NSMutableDictionary alloc] init];
+    if (message) {
+        paramsToSend[@"message"] = message;
+    }
+    
+    if (cancelAction) {
+        paramsToSend[@"cancelAction"] = cancelAction;
+    }
+    
+    if (confirmAction) {
+        paramsToSend[@"confirmAction"] = confirmAction;
+    }
+    
+    [self performTarget:kKSMediatorTargetA
+                 action:kKSMediatorActionShowAlert
+                 params:paramsToSend
+      shouldCacheTarget:NO];
+}
+
+
 @end

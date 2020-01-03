@@ -54,6 +54,19 @@ NSString * const  kCellIdentifier = @"kCellIdentifier";
         // 获得view controller之后，在这种场景下，到底push还是present，其实是要由使用者决定的，mediator只要给出view controller的实例就好了
         [self presentViewController:viewController animated:YES completion:nil];
     }
+    
+    if (indexPath.row == 1) {
+        UIViewController *viewController = [[KSMediator sharedInstance] KSMediator_viewControllerForDetail];
+        [self.navigationController pushViewController:viewController animated:YES];
+    }
+    
+    if (indexPath.row == 4) {
+        [[KSMediator sharedInstance] KSMediator_showAlertWithMessage:@"This is Alert" canleAction:^(NSDictionary * _Nonnull info) {
+            NSLog(@"%@",info);
+        } confirmAction:^(NSDictionary * _Nonnull info) {
+            NSLog(@"%@",info);
+        }];
+    }
 }
 
 #pragma mark - getters and setters
