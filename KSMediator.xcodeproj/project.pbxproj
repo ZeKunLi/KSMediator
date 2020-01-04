@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -198,7 +198,6 @@
 				D5EC3E190D553AA6FA7DDC20 /* Pods-KSMediatorTests.debug.xcconfig */,
 				F000951F9504ADB64EF42949 /* Pods-KSMediatorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -639,6 +638,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.KSMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-nonnull";
 			};
 			name = Debug;
 		};
@@ -657,6 +657,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.KSMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-nonnull";
 			};
 			name = Release;
 		};

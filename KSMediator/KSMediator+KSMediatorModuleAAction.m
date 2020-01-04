@@ -10,6 +10,8 @@
 
 NSString * const kKSMediatorTargetA = @"A";
 NSString * const kKSMediatorActionNativFetchDetailViewController = @"nativeFetchDetailViewController";
+NSString * const kKSMediatorActionNativePresentImage = @"nativePresentImage";
+NSString * const kKSMediatorActionNativeNoImage = @"nativeNoImage";
 NSString * const kKSMediatorActionShowAlert = @"showAlert";
 @implementation KSMediator (KSMediatorModuleAAction)
 - (UIViewController *)KSMediator_viewControllerForDetail {
@@ -26,8 +28,6 @@ NSString * const kKSMediatorActionShowAlert = @"showAlert";
         return [[UIViewController alloc] init];
     }
 }
-
-
 
 - (void)KSMediator_showAlertWithMessage:(NSString *)message canleAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction {
     NSMutableDictionary *paramsToSend = [[NSMutableDictionary alloc] init];
@@ -49,5 +49,13 @@ NSString * const kKSMediatorActionShowAlert = @"showAlert";
       shouldCacheTarget:NO];
 }
 
+- (void)KSMediator_presentImage:(UIImage *)image {
+    if (image) {
+        [self performTarget:kKSMediatorTargetA action:kKSMediatorActionNativePresentImage params:@{@"image":image} shouldCacheTarget:NO];
+    } else {
+        [self performTarget:kKSMediatorTargetA action:kKSMediatorActionNativeNoImage params:nil shouldCacheTarget:NO];
+    }
+}
 
 @end
+

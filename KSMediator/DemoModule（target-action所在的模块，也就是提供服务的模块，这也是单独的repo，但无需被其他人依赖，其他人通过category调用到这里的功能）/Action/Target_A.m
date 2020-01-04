@@ -18,6 +18,21 @@ typedef void(^KSUrlRouterCallbackBlock)(NSDictionary *info);
     viewController.valueLabel.text = params[@"key"];
     return viewController;
 }
+
+- (void)Action_nativePresentImage:(NSDictionary *)params {
+    DemoModuleADetailViewController *viewController = [[DemoModuleADetailViewController alloc] init];
+    viewController.valueLabel.text = @"this is image";
+    viewController.imageView.image = params[@"image"];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:viewController animated:YES completion:nil];
+}
+
+- (void)Action_nativeNoImage:(NSDictionary *)params {
+    DemoModuleADetailViewController *viewConroller = [[DemoModuleADetailViewController alloc] init];
+    viewConroller.valueLabel.text = @"this is no image";
+    viewConroller.imageView.image = [UIImage imageNamed:@"noImage"];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:viewConroller animated:YES completion:nil];
+}
+
 - (void)Action_showAlert:(NSDictionary *)params {
     
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {

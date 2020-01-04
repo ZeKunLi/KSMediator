@@ -60,6 +60,14 @@ NSString * const  kCellIdentifier = @"kCellIdentifier";
         [self.navigationController pushViewController:viewController animated:YES];
     }
     
+    if (indexPath.row == 2) {
+        [[KSMediator sharedInstance] KSMediator_presentImage:[UIImage imageNamed:@"image"]];
+    }
+    
+    if (indexPath.row == 3) {
+        [[KSMediator sharedInstance] KSMediator_presentImage:nil];
+    }
+    
     if (indexPath.row == 4) {
         [[KSMediator sharedInstance] KSMediator_showAlertWithMessage:@"This is Alert" canleAction:^(NSDictionary * _Nonnull info) {
             NSLog(@"%@",info);
